@@ -74,7 +74,7 @@ void cht_DoMDK(player_t *player, const char *mod)
 		// a very very cheap kill.
 		P_LineAttack(player->mo, player->mo->Angles.Yaw, PLAYERMISSILERANGE,
 			P_AimLineAttack(player->mo, player->mo->Angles.Yaw, PLAYERMISSILERANGE), TELEFRAG_DAMAGE,
-			mod, NAME_BulletPuff);
+			mod, NAME_BulletPuffMDK);
 	}
 }
 
@@ -465,7 +465,7 @@ void cht_DoCheat (player_t *player, int cheat)
 			// a very very cheap kill.
 			P_LineAttack (player->mo, player->mo->Angles.Yaw, PLAYERMISSILERANGE,
 				P_AimLineAttack (player->mo, player->mo->Angles.Yaw, PLAYERMISSILERANGE), TELEFRAG_DAMAGE,
-				NAME_MDK, NAME_BulletPuff);
+				NAME_MDK, NAME_BulletPuffMDK);
 		}
 		break;
 

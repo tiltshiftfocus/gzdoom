@@ -77,6 +77,8 @@ class BulletPuff : Actor
 		Stop;
 	}
 }
+
+class BulletPuffMDK : BulletPuff { Default { } }
 	
 // Container for an unused state -------------------------------------------
 

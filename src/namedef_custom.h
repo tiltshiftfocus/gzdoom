@@ -75,6 +75,7 @@ xx(AltHUDIcon)
 xx(PickupFlash)
 
 xx(BulletPuff)
+xx(BulletPuffMDK)
 xx(StrifePuff)
 xx(MaulerPuff)
 
